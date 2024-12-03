@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment</title>
+    <style>
+        .image-border {
+            border: 2px solid black;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML Assignment</h1>
+
+    <!-- Display numbers 1-10, each number a different color -->
+    <h2>Numbers 1-10 with Different Colors</h2>
+    <p style="color: red;">1</p>
+    <p style="color: orange;">2</p>
+    <p style="color: yellow;">3</p>
+    <p style="color: green;">4</p>
+    <p style="color: blue;">5</p>
+    <p style="color: indigo;">6</p>
+    <p style="color: violet;">7</p>
+    <p style="color: pink;">8</p>
+    <p style="color: brown;">9</p>
+    <p style="color: gray;">10</p>
+
+    <!-- Display squares of numbers 1-10 -->
+    <h2>Squares of Numbers 1-10</h2>
+    <p>1<sup>2</sup> = 1</p>
+    <p>2<sup>2</sup> = 4</p>
+    <p>3<sup>2</sup> = 9</p>
+    <p>4<sup>2</sup> = 16</p>
+    <p>5<sup>2</sup> = 25</p>
+    <p>6<sup>2</sup> = 36</p>
+    <p>7<sup>2</sup> = 49</p>
+    <p>8<sup>2</sup> = 64</p>
+    <p>9<sup>2</sup> = 81</p>
+    <p>10<sup>2</sup> = 100</p>
+
+    <!-- Display two lists -->
+    <h2>Lists</h2>
+    <h3>Ordered List:</h3>
+    <ol>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ol>
+    <h3>Unordered List:</h3>
+    <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ul>
+
+    <!-- Display two addresses in the envelope format -->
+    <h2>Address Format</h2>
+    <p><strong>Sender's Address:</strong></p>
+    <pre>
+Dilbert H.
+1234 Anim Street
+P.O. Box 22222
+    </pre>
+    <p><strong>Receiver's Address:</strong></p>
+    <pre>
+Someone A. Person
+5555 Street Avenue
+Metropolitan, Metropolis 11111
+    </pre>
+
+    <!-- Create a link to jump to the bottom of the page and back to the top -->
+    <h2><a href="#bottom">Jump to Bottom</a></h2>
+    <p>...Content...</p>
+    <p>...Content...</p>
+    <p>...Content...</p>
+    <p>...Content...</p>
+    <p>...Content...</p>
+
+    <div id="bottom">
+        <h2><a href="#top">Back to Top</a></h2>
+    </div>
+
+    <!-- Display four different website links opening in new windows -->
+    <h2>Links to Websites</h2>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
+        <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+        <li><a href="https://www.reddit.com" target="_blank">Reddit</a></li>
+    </ul>
+
+    <!-- Display five different images with titles -->
+    <h2>Images</h2>
+    <h3>Image 1</h3>
+    <img src="https://my.uopeople.edu/course/view.php?id=8163" alt="Image 1">
+    <br><br>
+    <h3>Image 2</h3>
+    <img src="https://my.uopeople.edu/course/view.php?id=8135" alt="Image 2">
+    <br><br>
+    <h3>Image 3</h3>
+    <img src="https://my.uopeople.edu/course/view.php?id=8399" alt="Image 3">
+    <br><br>
+    <h3>Image 4</h3>
+    <img src="https://my.uopeople.edu/course/view.php?id=8326" alt="Image 4">
+    <br><br>
+    <h3>Image 5</h3>
+    <img src="https://my.uopeople.edu/pluginfile.php/1/core_admin/logocompact/300x300/1731052696/logo-1-e1656937640591.png" alt="Image 5">
+    <br><br>
+
+    <!-- Display an image with a border -->
+    <h2>Image with Border</h2>
+    <img class="image-border" src="https://my.uopeople.edu/pluginfile.php/1/core_admin/logocompact/300x300/1731052696/logo-1-e1656937640591.png" alt="Image with Border">
+    <br><br>
+
+    <!-- Display an image that links to itself -->
+    <h2>Clickable Image</h2>
+    <a href="https://my.uopeople.edu/pluginfile.php/1/core_admin/logocompact/300x300/1731052696/logo-1-e1656937640591.png" target="_blank">
+        <img src="https://my.uopeople.edu/pluginfile.php/1/core_admin/logocompact/300x300/1731052696/logo-1-e1656937640591.png" alt="Clickable Image">
+    </a>
+    <br><br>
+
+    <!-- Display an image that links to a search engine -->
+    <h2>Image Linking to Search Engine</h2>
+    <a href="https://www.google.com" target="_blank">
+        <img src="https://via.placeholder.com/200" alt="Search Engine Image">
+    </a>
+    <br><br>
+
+    <!-- Display a table with stock prices -->
+    <h2>Stock Prices</h2>
+    <table border="1">
+        <tr>
+            <th align="left">Name</th>
+            <th>Symbol</th>
+            <th>Current</th>
+            <th>52WK HI</th>
+            <th>52WK LO</th>
+            <th>P/E Ratio</th>
+        </tr>
+        <tr>
+            <td>Microsoft</td>
+            <td>MSFT</td>
+            <td>86-3/8</td>
+            <td>119-15/16</td>
+            <td>75-1/2</td>
+            <td>56.09</td>
+        </tr>
+        <tr>
+            <td>Cisco Systems</td>
+            <td>CSCO</td>
+            <td>72-1/8</td>
+            <td>82</td>
+            <td>24-13/16</td>
+            <td>400.69</td>
+        </tr>
+        <tr>
+            <td>America Online</td>
+            <td>AOL</td>
+            <td>63</td>
+            <td>95-13/16</td>
+            <td>38-15/32</td>
+            <td>350.00</td>
+        </tr>
+        <tr>
+            <td>Qwest Communications</td>
+            <td>Q</td>
+            <td>44-7/16</td>
+            <td>66</td>
+            <td>25-3/4</td>
+            <td>74.06</td>
+        </tr>
+        <tr>
+            <td>Dell Computers</td>
+            <td>DELL</td>
+            <td>53-59/64</td>
+            <td>59-11/16</td>
+            <td>31-3/8</td>
+            <td>86.97</td>
+        </tr>
+    </table>
+
+</body>
+</html>
